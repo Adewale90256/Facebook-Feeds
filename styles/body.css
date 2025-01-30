@@ -1,0 +1,131 @@
+body {
+  background-color: whitesmoke;
+  height: 3000px;
+}
+
+.body-1 {
+  display: flex;
+  margin-left: 550px;
+  margin-top: 80px;
+}
+
+.status-bar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: white;
+  width: 145px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.status-pic {
+  height: 200px;
+  width: 140px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.fa-circle-plus {
+  font-size: 50px;
+  color: rgb(54, 54, 207);
+}
+
+.plus {
+  display: flex;
+  justify-content: center;
+  border: 5px solid white;
+  border-radius: 40px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 40px;
+  top: 185px;
+  margin-bottom: 50px;
+}
+
+.create {
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.body-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 140px;
+  width: 576px;
+  border-radius: 5px;
+  margin-left: 550px;
+  padding-left: 5px;
+}
+
+.sub-body {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.search-mind {
+  width: 470px;
+  height: 30px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 10px 8px 10px;
+  font-size: bold;
+  margin-right: 8px;
+}
+
+.live {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fa-video {
+  color: red;
+}
+
+.fa-images {
+  color: green;
+}
+
+.fa-face-laugh {
+  color: orange;
+}
+
+.line {
+  display: flex;
+  border: 1px solid lightgray;
+  width: 530px;
+  justify-content: center;
+  margin-left: 18px;
+}
+.live-1:hover {
+  background-color: lightgray;
+  transition: background-color 1s;
+}
+
+.live-1:active {
+  background-color: rgb(54, 54, 207);
+  color: white;
+  border: 1px solid red;
+}
+
+.live-1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+  transition: background-color 1s;
+}

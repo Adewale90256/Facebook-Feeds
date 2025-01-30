@@ -1,0 +1,195 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+  flex: 1fr 2fr 1fr;
+  padding-top: 8px;
+  z-index: 100;
+}
+
+.middle-side {
+  display: flex;
+  align-items: center;
+  /* background-color: lightblue;*/
+  flex: 2;
+  justify-content: center;
+  gap: 50px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  flex: 1;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  margin-right: 80px;
+}
+
+.fa-facebook {
+  font-size: 50px;
+  color: rgb(54, 54, 207);
+  margin-right: 10px;
+}
+
+.facebook-search {
+  position: relative;
+  width: 250px;
+  padding: 10px 50px 10px;
+  border-radius: 20px;
+  border: 1px solid;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  top: 23px;
+  bottom: 9px;
+  left: 70px;
+  font-size: 20px;
+  color: gray;
+}
+
+.fa-house,
+.fa-youtube,
+.fa-store,
+.fa-user-group,
+.fa-gamepad {
+  /*color: black;
+  font-size: 20px;
+  background-color: rgb(54, 54, 207);
+  width: 50px;*/
+}
+
+.fa-house:hover,
+.fa-youtube:hover,
+.fa-store:hover,
+.fa-user-group:hover,
+.fa-gamepad:hover {
+  /*color: white;
+  background-color: rgb(54, 54, 207);
+  cursor: pointer;
+  transition: background-color 1s;*/
+}
+
+button {
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px 10px 30px;
+  font-size: 15px;
+  background-color: white;
+}
+
+button:hover {
+  background-color: rgb(54, 54, 207);
+  color: white;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+
+.sub-right-button {
+  background-color: rgb(197, 193, 193);
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
+}
+
+.sub-right-button:hover {
+  background-color: rgb(54, 54, 207);
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.side-bar {
+  margin-top: 17x;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(223, 223, 223);
+  position: fixed;
+  height: 800px;
+  width: 400px;
+  border-radius: 5px;
+  margin-right: 180px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  object-fit: cover;
+}
+
+.sub-bar-1:hover,
+.sub-bar-2:hover,
+.sub-bar-3:hover,
+.sub-bar-4:hover,
+.sub-bar-5:hover,
+.sub-bar-6:hover,
+.sub-bar-7:hover,
+.sub-bar-8:hover,
+.sub-bar-9:hover,
+.sub-bar-10:hover {
+  background-color: rgb(160, 160, 160);
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.sub-bar-1,
+.sub-bar-2,
+.sub-bar-3,
+.sub-bar-4,
+.sub-bar-5,
+.sub-bar-6,
+.sub-bar-7,
+.sub-bar-8,
+.sub-bar-9,
+.sub-bar-10 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.name,
+.friend,
+.feeds,
+.group,
+.market,
+.videos,
+.memories,
+.pages,
+.event,
+.see-more {
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.friend-icon,
+.feeds-1,
+.group-1,
+.market-1,
+.videos-1,
+.memories-1,
+.pages-1,
+.event-1,
+.see-more-1 {
+  font-size: 30px;
+  padding-left: 6px;
+  padding-top: 3px;
+  color: rgb(54, 54, 207);
+}
